@@ -1,0 +1,19 @@
+# Streamlit theme and server settings for ScholarLens
+[theme]
+base = "light"
+primaryColor = "#4F46E5"
+backgroundColor = "#F7F8FC"
+secondaryBackgroundColor = "#EEF0F8"
+textColor = "#1F2937"
+font = "sans serif"
+
+[theme.sidebar]
+backgroundColor = "#111827"
+secondaryBackgroundColor = "#1F2937"
+textColor = "#E5E7EB"
+
+[server]
+maxUploadSize = 50   # MB, matches SETTINGS.max_file_size_mb
+
+[browser]
+gatherUsageStats = false
